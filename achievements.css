@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+}
+body,html{
+  height:100%;
+}
+#e{
+  border:3px solid white;
+  color :white;
+  background: transparent;
+
+  text-decoration: none;
+  font-size:20px;
+  padding: 10px 30px;
+
+}
+#e:hover{
+  background:blue;
+}
+
+
+.parallax{
+background-image:url(ach.png);
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+}
+.parallax2{
+  background-image:url(trek.jpg);
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+}
+img{
+  rotation:20s linear infinite;
+}
+
+
+
+.p1{
+  font-family:helvetica;
+background-image:url(background.png);
+color:white;
+width:100%;
+font-size:55px;
+text-align:center;
+height:105vh;
+}
+
+
+.p3{
+  font-family:helvetica;
+background-image:url(background.png);
+color:white;
+width:100%;
+font-size:55px;
+text-align:center;
+height:75vh;
+}
+
+h1{
+  font-size:60px;
+  background-color:red;
+  height:50vh;
+  width:100%;
+  text-align:center;
+  color:white;
+
+}
+
+.parallax3{
+  background-image:url(squash1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+}
+
+table{
+  align-contents:center;
+  justify-content:center;
+}

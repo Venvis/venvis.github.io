@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+<head><title> Vishal Venkat</title>
+<style>
+body { background-image: url("cycle.gif");
+  background-size:cover;
+  height: 100%;
+  background-attachment:scroll;
+  background-repeat:repeat;
+ }
+
+/* (B) GALLERY WRAPPER */
+.gallery {
+  /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+
+  /* (B2) OPTIONAL WIDTH RESTRICT */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.gallery img {
+  /* (C1) DIMENSION */
+  width: 100%;
+  height: 160px; /* optional */
+  padding: 10px;
+
+  /* (C2) COLORS */
+  border: 0px solid #ddd;
+  background: #0000F;
+
+  /* (C3) IMAGE RESIZE */
+  /* cover | contain | fill | scale-down */
+  object-fit: contain;
+  position: relative;
+}
+.gallery {
+  grid-template-columns: repeat(2, 1fr);
+}
+.gallery img:hover {
+  z-index: 9;
+  transform: scale(1.3);
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  transition: transform ease 0.5s;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+  <br><br>
+  <h1 align="center"><font color="white"><font size="+4">More Images from the trek</font></font></h1>
+
+  <br>
+  <br>
+  <div class="gallery">
+  <img src="day1.jpeg" title="DAY 1"/>
+  <img src="day31.jpeg" title="DAY 1"/>
+  <img src="day2.jpeg" title="DAY 2"/>
+  <img src="day21.jpeg" title="DAY 2"/>
+  <img src="day3.jpeg" title="DAY 3"/>
+  <img src="day32.jpeg" title="DAY 3"/>
+ 
+  
+
+  
+</div>
+</body>
+</html>
